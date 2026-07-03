@@ -10,3 +10,11 @@ body {
     margin: 0px;
     margin-bottom: 100px;
 }
+
+header{
+
+    background-color: #E0FFFF;
+    color: azure;
+    text-align: center;
+    padding: 20px;
+}
