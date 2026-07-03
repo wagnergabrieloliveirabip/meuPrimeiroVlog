@@ -11,15 +11,15 @@ body {
     margin-bottom: 100px;
 }
 
-header{
+header {
 
     background-color: #E0FFFF;
-    color:#00FFFF ;
+    color: #00FFFF;
     text-align: center;
     padding: 20px;
 }
 
-main{
+main {
 
     font-size: 10px;
     align-items: center;
@@ -30,11 +30,25 @@ main{
 
 }
 
-.container{
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 80%;
+
+}
+
+#imagem{
 display: flex;
-flex-direction: column;
-align-items: center;
 justify-content: center;
-margin-top: 50px;
-width: 80%;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 260px;
+width: 70%;
+height: auto;
+border-radius: 10px;
+margin-top: 20px;
+
 }
